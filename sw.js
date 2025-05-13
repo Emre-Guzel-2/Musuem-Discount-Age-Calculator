@@ -7,6 +7,13 @@ var URLS = [
   `${GHPATH}/css/styles.css`,
   `${GHPATH}/android-chrome-512x512.png`,
   `${GHPATH}/js/script.js`,
+  `${GHPATH}/images/mesumTikect.jpg`,
+  `${GHPATH}/apple-touch-icon.png`,
+  `${GHPATH}/favicon-32x32.png`,
+  `${GHPATH}/favicon-16x16.png`,
+  "https://code.getmdl.io/1.3.0/material.blue_grey-light_green.min.css",
+  "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;700&display=swap",
+  "https://fonts.googleapis.com/icon?family=Material+Icons"
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION

@@ -6,6 +6,17 @@
 // This file contains the JS functions for index.html
 
 "use strict"
+
+/**
+ * Check servie worker.
+ */
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register("Musuem-Discount-Age-Calculator/sw.js", {
+    scope: "/Musuem-Discount-Age-Calculator/",
+  })
+}
+
+
 // Setting the functoin 
 function musuemDiscountAgeCalculator() {
   // Setting the variables
