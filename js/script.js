@@ -1,24 +1,24 @@
+
 // Copyright (c) 2020 Mr. Coxall All rights reserved
 //
 // Created by: Emre Guzel
-// Created on: April 22 2025
+// Created on: April 29 2025
 // This file contains the JS functions for index.html
 
 "use strict"
-
-// Setting the randomNumberGenerator as function 
-function randomNumberGenerator() {
+// Setting the functoin 
+function musuemDiscountAgeCalculator() {
   // Setting the variables
-  const positiveNumber = document.getElementById("positive-number").checked
-  let randomNumber
+  const age = parseInt(document.getElementById("age").value)
+  const day = document.getElementById("day").value
+  let message = ""
 
-  // Setting the the if and else statment 
-  if (positiveNumber == true) {
-    randomNumber = Math.floor(Math.random() * 6) + 1 // 1 to 6
+  // Setting the if statement
+  if ((day == "Tuesday" || day == "Thursday") || (age > 12 && age < 21)){
+    message = "You're eligible for student pricing";
   } else {
-    randomNumber = -1 * (Math.floor(Math.random() * 6) + 1); // -1 to -6
+    message = "You must pay the regular pricing"
   }
-  // Gettting the reuslt 
-  document.getElementById("result").innerHTML =
-    "<p>The random number is: " + randomNumber + "</p>"
+
+  document.getElementById("result").innerHTML = message
 }
