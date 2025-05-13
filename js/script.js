@@ -11,7 +11,7 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("Musuem-Discount-Age-Calculator/sw.js", {
+  navigator.serviceWorker.register("/Musuem-Discount-Age-Calculator/sw.js", {
     scope: "/Musuem-Discount-Age-Calculator/",
   })
 }

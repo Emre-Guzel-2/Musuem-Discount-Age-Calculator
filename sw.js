@@ -1,4 +1,4 @@
-var GHPATH = "/github-page-pwa"
+var GHPATH = "/Musuem-Discount-Age-Calculator"
 var APP_PREFIX = "gppwa_"
 var VERSION = "version_001"
 var URLS = [
